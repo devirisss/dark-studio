@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dark-studio/static/css/main.0406e80a.css",
+    "main.js": "/dark-studio/static/js/main.caaddac2.js",
+    "static/media/alfaTrade.png": "/dark-studio/static/media/alfaTrade.6e7efdb4031cb5992818.png",
+    "static/media/restaurant.png": "/dark-studio/static/media/restaurant.b6abdd40b19feac9e7e2.png",
+    "static/media/implemSystem.png": "/dark-studio/static/media/implemSystem.9e030f896b8e685931c0.png",
+    "static/media/BebasNeueCyrillic.eot": "/dark-studio/static/media/BebasNeueCyrillic.449a3e8a893a44f4cf76.eot",
+    "static/media/BebasNeueCyrillic.ttf": "/dark-studio/static/media/BebasNeueCyrillic.12044bb03bb93277fed6.ttf",
+    "static/media/garantEnergo.png": "/dark-studio/static/media/garantEnergo.ae8d0fed564389c08f14.png",
+    "static/media/paradise.png": "/dark-studio/static/media/paradise.19cdbbaba325699f9893.png",
+    "static/media/stairs.png": "/dark-studio/static/media/stairs.bc05db51c3fed355c23d.png",
+    "static/media/ffural.png": "/dark-studio/static/media/ffural.b2e708eb2610af58465e.png",
+    "static/media/BebasNeueCyrillic.woff": "/dark-studio/static/media/BebasNeueCyrillic.ea9990cb4f9ef44058c0.woff",
+    "static/media/decorUnder.png": "/dark-studio/static/media/decorUnder.92483fc341005095b6ec.png",
+    "static/media/decorAbove.png": "/dark-studio/static/media/decorAbove.f9c26ce0cdb0807eedd6.png",
+    "static/media/BebasNeueCyrillic.woff2": "/dark-studio/static/media/BebasNeueCyrillic.a58adade80d01533fa52.woff2",
+    "index.html": "/dark-studio/index.html",
+    "main.0406e80a.css.map": "/dark-studio/static/css/main.0406e80a.css.map",
+    "main.caaddac2.js.map": "/dark-studio/static/js/main.caaddac2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0406e80a.css",
+    "static/js/main.caaddac2.js"
+  ]
+}
