@@ -1,0 +1,56 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 140px;
+    height: 40px;
+}
+
+.contacts a:first-child {
+    background-color: #121212;
+}
+
+.contacts div,
+.contacts a {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    transition: all 0.5s ease-in-out;
+}
+
+.contacts div:hover,
+.contacts a:hover {
+    cursor: pointer;
+    animation: jump .5s;
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .contacts {
+        width: 120px;
+    }
+
+    .contacts a {
+        width: 35px;
+        height: 35px;
+    }
+}

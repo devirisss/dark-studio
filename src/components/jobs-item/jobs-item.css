@@ -1,0 +1,55 @@
+.jobDescription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    z-index: 10;
+}
+
+
+.jobDescription p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    white-space: pre-line;
+}
+
+.blue {
+    color: #226DFF;
+}
+
+@media (max-width: 1500px) {
+ 
+    .jobDescription {
+        gap: 15px;
+    }
+    
+    .blue {
+        color: #226DFF;
+        font-size: 35px;
+        height: 30px;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+
+    .jobDescription p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    .jobDescription p {
+        overflow: scroll;
+        font-size: 12px;
+    }
+    
+    .blue {
+        color: #226DFF;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,236 @@
+.projects {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects>p {
+    width: 225px;
+}
+
+.subtitle {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.gallery {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.gallery div {
+    height: 480px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid #121212;
+    border-left: none;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.covering {
+    flex: 5;
+    filter: grayscale(0);
+}
+
+.covering a {
+    display: block;
+}
+
+.secondary {
+    flex: 1;
+    filter: grayscale(100%);
+    margin-left: -25px;
+}
+
+.secondary:hover {
+    flex: 5;
+    filter: grayscale(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery a,
+.overlay {
+    display: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DF73FF26;
+}
+
+
+.secondary:hover a,
+.secondary:hover .overlay {
+    display: block;
+}
+
+.gallery .one {
+    background-image: url('../../images/alfaTrade.png');
+    z-index: 7;
+}
+
+.gallery .two {
+    background-image: url('../../images/restaurant.png');
+    z-index: 6;
+}
+
+.gallery .three {
+    background-image: url('../../images/garantEnergo.png');
+    z-index: 5;
+}
+
+.gallery .four {
+    background-image: url('../../images/implemSystem.png');
+    z-index: 4;
+}
+
+.gallery .five {
+    background-image: url('../../images/stairs.png');
+    z-index: 3;
+}
+
+.gallery .six {
+    background-image: url('../../images/ffural.png');
+    z-index: 2;
+}
+
+.gallery .seven {
+    background-image: url('../../images/paradise.png');
+    z-index: 1;
+}
+
+.inactive {
+    flex: 1;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.inactive .overlay {
+    display: none;
+}
+
+@media (min-width: 1800px) {
+
+    .projects {
+        width: 90%;
+    }
+
+    .gallery {
+        height: 700px;
+    }
+
+    .gallery div {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+
+    .projects {
+        width: 90%;
+    }
+
+    .covering {
+        flex: 10;
+    }
+
+    .secondary:hover {
+        flex: 10;
+    }
+
+    .inactive {
+        flex: 1;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .gallery {
+        height: 480px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gallery div {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .secondary {
+        flex: 1;
+        filter: grayscale(100%);
+        margin: 0;
+        margin-top: -15px;
+    }
+
+    .covering {
+        flex: 5;
+        filter: grayscale(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .covering a {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #DF73FF26;
+    }
+
+    .secondary:hover {
+        flex: 5;
+        filter: grayscale(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .secondary .overlay,
+    .secondary a {
+        display: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #DF73FF26;
+    }
+
+    .gallery a,
+    .overlay {
+        display: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #DF73FF26;
+    }
+
+
+    .secondary:hover a,
+    .secondary:hover .overlay {
+        display: block;
+    }
+
+    .inactive {
+        flex: 1;
+        filter: grayscale(100%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .inactive .overlay {
+        display: none;
+    }
+}

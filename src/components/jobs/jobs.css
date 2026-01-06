@@ -1,0 +1,174 @@
+.jobs {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobs>p {
+    width: 404px;
+}
+
+.employmentField {
+    margin-top: 40px;
+    width: 1164px;
+    height: 412px;
+    display: flex;
+    align-items: center;
+}
+
+.vacancy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 610px;
+    height: 412px;
+    padding: 40px 60px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.switch {
+    position: absolute;
+    top: 0;
+    padding: 40px 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.switch div {
+    width: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.switch div:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.form {
+    width: 554px;
+    height: 343px;
+    padding: 40px 100px;
+    border-radius: 0px 20px 20px 0;
+    background-color: #226DFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+form input {
+    border: none;
+    width: 100%;
+    height: 49px;
+    padding: 13px 40px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #226cff7d;
+    font-family: Roboto;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+form input:hover {
+    box-shadow: 0px 0px 20px 1px #FFFFFF;
+    transition: all .3s ease-in-out;
+}
+
+form input:focus{
+    color: #226DFF;
+}
+
+form input:last-child {
+    font-size: 18px;
+    background-color: #DF73FF;
+    color: #FFFFFF;
+    margin-top: 25px;
+    padding: 0;
+}
+
+form input:last-child:hover {
+    box-shadow: 0px 0px 20px 1px #DF73FF;
+    transform: scale(1.01);
+}
+
+form input::placeholder {
+    color: #226cff7d;
+}
+
+@media (max-width: 1500px) {
+
+    .jobs {
+        width: 90%;
+    }
+    
+    .employmentField {
+        width: 90%;
+    }
+    
+    .vacancy {
+        width: 60%;
+    }
+    
+    .form {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .jobs {
+        height: fit-content;
+    }
+    
+    .employmentField {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .vacancy {
+        width: 90%;
+        height: fit-content;
+    }
+
+    .form {
+        width: 60%;
+        height: fit-content;
+        padding: 30px 50px;
+        border-radius: 0px 0px 20px 20px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .jobs>p {
+        width: 100%;
+    }
+    
+    .vacancy {
+        padding: 20px 20px;
+        width: 100%;
+    }
+
+    .switch {
+        padding: 10px 20px;
+    }
+    
+    .form {
+        width: 85%;
+        padding: 20px 30px;
+    }
+    form {
+        width: 100%;
+        gap: 7px;
+    }
+} 
